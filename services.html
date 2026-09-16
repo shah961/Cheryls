@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Menu | Cheryl's Company Home Salon Services</title>
+  <meta name="description" content="Explore complete home salon menu: Haircuts, blowdries, bridal makeup, facials, waxing, manicures, pedicures & massages in Lahore.">
+  <link rel="canonical" href="https://www.cheryls.com.pk/services.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="announcement-bar">
+    <span>Luxury Salon-at-Home Services across DHA Lahore & Major Cities</span>
+    <a href="https://wa.me/923021119973" target="_blank" rel="noopener">Book on WhatsApp: +92 302 111 9973</a>
+  </div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Cheryl's Company Homepage">
+        <span class="logo-main">CHERYL'S</span>
+        <span class="logo-sub">COMPANY</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="products.html" class="nav-link">Products & Quality</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm btn-desk js-open-modal">Book Appointment</button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section-padding" style="background: var(--bg-secondary); padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="container text-center">
+        <span class="section-tag">Complete Menu</span>
+        <h1>At-Home Beauty Services</h1>
+        <p style="max-width: 600px; margin: 0.5rem auto 0 auto;">Select from our comprehensive list of specialized treatments.</p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+
+        <!-- Category Filter Tabs -->
+        <div class="filter-tabs">
+          <button class="tab-btn active" data-filter="all">All Services</button>
+          <button class="tab-btn" data-filter="hair">Hair</button>
+          <button class="tab-btn" data-filter="makeup">Makeup</button>
+          <button class="tab-btn" data-filter="skin">Skin</button>
+          <button class="tab-btn" data-filter="nails">Nails</button>
+          <button class="tab-btn" data-filter="waxing">Waxing & Threading</button>
+          <button class="tab-btn" data-filter="wellness">Wellness</button>
+        </div>
+
+        <div class="grid grid-3">
+          <!-- Haircut -->
+          <article class="service-card service-card-item" data-category="hair">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="Haircut styling" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Signature Haircut</h3>
+              <p>Customized precision haircut tailored to your face structure, finished with professional blowdry styling.</p>
+              <div class="service-price">Rs 3,999</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Haircut">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Bridal Makeup -->
+          <article class="service-card service-card-item" data-category="makeup">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80" alt="Bridal makeup" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Bridal Makeup & Styling</h3>
+              <p>Full glam bridal makeup session including jewelry setting, dupatta setting, and hair artwork.</p>
+              <div class="service-price">Contact for current pricing</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Bridal Makeup">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Facial -->
+          <article class="service-card service-card-item" data-category="skin">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80" alt="Facial cleanup" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Hydrating Facial & Cleanup</h3>
+              <p>Deep pore cleansing, exfoliation, hydration mask, and facial glow massage.</p>
+              <div class="service-price">Contact for current pricing</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Facial">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Manicure / Pedicure -->
+          <article class="service-card service-card-item" data-category="nails">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80" alt="Manicure Pedicure" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Mani-Pedi Spa Combo</h3>
+              <p>Nail shaping, cuticle treatment, relaxing hand & foot massage, and nail coloring application.</p>
+              <div class="service-price">Contact for current pricing</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Nails">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Waxing -->
+          <article class="service-card service-card-item" data-category="waxing">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?auto=format&fit=crop&w=600&q=80" alt="Waxing service" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Full Body Waxing & Threading</h3>
+              <p>Hygienic hair removal using sanitized strip tools and gentle formula waxes for smooth skin.</p>
+              <div class="service-price">Contact for current pricing</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Waxing">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Wellness Massage -->
+          <article class="service-card service-card-item" data-category="wellness">
+            <div class="service-card-img">
+              <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80" alt="Relaxing body massage" width="600" height="220" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h3>Relaxing Female Massage</h3>
+              <p>Targeted shoulder, head, and full body tension release massage by experienced therapists.</p>
+              <div class="service-price">Contact for current pricing</div>
+              <div class="service-card-actions">
+                <button class="btn btn-primary btn-sm js-open-modal" data-service="Massage">Book Now</button>
+                <a href="https://wa.me/923021119973" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="bookingModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close js-close-modal" aria-label="Close modal">&times;</button>
+      <h2>Book Service</h2>
+      <form class="js-validate-form" style="margin-top: 1rem;">
+        <div class="form-group">
+          <label for="srvModalName">Name *</label>
+          <input type="text" id="srvModalName" class="form-control" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="srvModalPhone">Phone *</label>
+          <input type="tel" id="srvModalPhone" class="form-control" required placeholder="Phone Number">
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Confirm Booking Request</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #FFF;"><span class="logo-main" style="color: #FFF;">CHERYL'S</span><span class="logo-sub">COMPANY</span></a>
+          <p>Professional salon services brought to your doorstep.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-item"><span>Phone: +92 333 0181727</span></div>
+          <div class="footer-contact-item"><span>WhatsApp: +92 302 111 9973</span></div>
+          <div class="footer-contact-item"><span>Email: info@cheryls.com.pk</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Cheryl's Company. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
