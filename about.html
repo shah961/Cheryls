@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Cheryl's Company - Home Beauty Services Pakistan</title>
+  <meta name="description" content="Learn about Cheryl's Company - empowering skilled female beauticians while providing premium salon-at-home services across DHA Lahore and Pakistan.">
+  <link rel="canonical" href="https://www.cheryls.com.pk/about.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="announcement-bar">
+    <span>Luxury Salon-at-Home Services across DHA Lahore & Major Cities</span>
+    <a href="https://wa.me/923021119973" target="_blank" rel="noopener">Book on WhatsApp: +92 302 111 9973</a>
+  </div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Cheryl's Company Homepage">
+        <span class="logo-main">CHERYL'S</span>
+        <span class="logo-sub">COMPANY</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="products.html" class="nav-link">Products & Quality</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm btn-desk js-open-modal">Book Appointment</button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Page Banner -->
+    <section class="section-padding" style="background: var(--bg-secondary); padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="container text-center">
+        <span class="section-tag">Our Identity</span>
+        <h1>About Cheryl's Company</h1>
+        <p style="max-width: 600px; margin: 0.5rem auto 0 auto;">Bringing professional salon care and empowerment together.</p>
+      </div>
+    </section>
+
+    <!-- Main Story -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="grid grid-2" style="align-items: center; gap: 4rem;">
+          <div class="reveal-on-scroll">
+            <span class="section-tag">Empowerment & Excellence</span>
+            <h2>Redefining the Salon Experience in Pakistan</h2>
+            <p>Cheryl's Company was established to solve a dual challenge: providing women with safe, luxurious, and accessible beauty services in their own homes, while creating meaningful financial self-sufficiency for skilled female beauty professionals.</p>
+            <p>Our home salon model eliminates the discomfort of commuting and long wait times in traditional salons, replacing it with personalized, one-on-one attention from background-checked, vetted beauticians.</p>
+          </div>
+          <div class="reveal-on-scroll">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Beauty professional styling hair" style="border-radius: var(--radius-md); box-shadow: var(--shadow-hover);" width="800" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Economic Opportunities -->
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-tag">Social Impact</span>
+          <h2>Supporting Women's Economic Independence</h2>
+          <p>We provide trained female beauty professionals with continuous skill enhancement, dignified work environments, and fair compensation.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="feature-box reveal-on-scroll">
+            <h3>Rigorous Vetting</h3>
+            <p>Every artist on our platform undergoes strict identity checks, technical evaluation, and customer service training.</p>
+          </div>
+          <div class="feature-box reveal-on-scroll">
+            <h3>Fair Opportunities</h3>
+            <p>We empower women skilled in beauty trades to achieve sustainable self-sufficiency and financial independence.</p>
+          </div>
+          <div class="feature-box reveal-on-scroll">
+            <h3>Standardized Safety</h3>
+            <p>Our professionals travel equipped with sanitized kits, disposable aprons, and fresh towels for every appointment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coverage Area -->
+    <section class="section-padding">
+      <div class="container text-center reveal-on-scroll">
+        <span class="section-tag">National Reach</span>
+        <h2>Service Coverage</h2>
+        <p style="max-width: 680px; margin: 0 auto 2rem auto;">With head offices anchored in DHA Phase 1, Lahore, Cheryl's Company serves client requests across major Pakistani cities including Lahore, Karachi, Islamabad, Faisalabad, Multan, Sargodha, Sialkot, Gujranwala, and Bahawalpur.</p>
+        <button class="btn btn-primary js-open-modal">Book in Your City</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="bookingModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close js-close-modal" aria-label="Close modal">&times;</button>
+      <h2>Book Appointment</h2>
+      <form class="js-validate-form" style="margin-top: 1rem;">
+        <div class="form-group">
+          <label for="aboutModalName">Name *</label>
+          <input type="text" id="aboutModalName" class="form-control" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="aboutModalPhone">Phone *</label>
+          <input type="tel" id="aboutModalPhone" class="form-control" required placeholder="Phone Number">
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #FFF;"><span class="logo-main" style="color: #FFF;">CHERYL'S</span><span class="logo-sub">COMPANY</span></a>
+          <p>Professional salon services brought to your doorstep.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-item"><span>Phone: +92 333 0181727</span></div>
+          <div class="footer-contact-item"><span>WhatsApp: +92 302 111 9973</span></div>
+          <div class="footer-contact-item"><span>Email: info@cheryls.com.pk</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Cheryl's Company. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
