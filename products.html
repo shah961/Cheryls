@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products & Quality Standards | Cheryl's Company</title>
+  <meta name="description" content="Discover our quality commitment: Cheryl's Company exclusively uses authentic, sealed, professional-grade beauty products for every home service appointment.">
+  <link rel="canonical" href="https://www.cheryls.com.pk/products.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <div class="announcement-bar">
+    <span>Luxury Salon-at-Home Services across DHA Lahore & Major Cities</span>
+    <a href="https://wa.me/923021119973" target="_blank" rel="noopener">Book on WhatsApp: +92 302 111 9973</a>
+  </div>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Cheryl's Company Homepage">
+        <span class="logo-main">CHERYL'S</span>
+        <span class="logo-sub">COMPANY</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="products.html" class="nav-link active">Products & Quality</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm btn-desk js-open-modal">Book Appointment</button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section-padding" style="background: var(--bg-secondary); padding-top: 4rem; padding-bottom: 4rem;">
+      <div class="container text-center">
+        <span class="section-tag">Quality Guarantee</span>
+        <h1>Original & Sealed Products</h1>
+        <p style="max-width: 600px; margin: 0.5rem auto 0 auto;">Our commitment to safety, hygiene, and authentic beauty formulations.</p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="container">
+        <div class="grid grid-2" style="align-items: center; gap: 3rem;">
+          <div>
+            <span class="section-tag">Safety First</span>
+            <h2>Our Product Philosophy</h2>
+            <p>At Cheryl's Company, we do not retail off-the-shelf beauty cosmetics directly to clients. Instead, we guarantee that every home service appointment utilizes 100% authentic, sealed, and professional-grade product kits.</p>
+            <p>Our beauticians open new, sealed product packs directly in front of you during your service. This prevents cross-contamination, guarantees freshness, and ensures your skin receives genuine dermatological care.</p>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=80" alt="Sealed beauty cosmetics and lotions" style="border-radius: var(--radius-md); box-shadow: var(--shadow-hover);" width="800" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Pillars of Excellence</span>
+          <h2>Hygiene & Product Standards</h2>
+        </div>
+
+        <div class="grid grid-3">
+          <div class="feature-box">
+            <h3>Sealed Packaging</h3>
+            <p>Single-use facial kits and sealed wax packs opened directly at your session.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Professional Formulas</h3>
+            <p>Formulated specifically for salon application, ensuring longer-lasting results.</p>
+          </div>
+          <div class="feature-box">
+            <h3>Sterilized Tools</h3>
+            <p>All reusable equipment is sanitized thoroughly between appointments using medical-grade disinfectants.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="bookingModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close js-close-modal" aria-label="Close modal">&times;</button>
+      <h2>Book Appointment</h2>
+      <form class="js-validate-form" style="margin-top: 1rem;">
+        <div class="form-group">
+          <label for="prodModalName">Name *</label>
+          <input type="text" id="prodModalName" class="form-control" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="prodModalPhone">Phone *</label>
+          <input type="tel" id="prodModalPhone" class="form-control" required placeholder="Phone Number">
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" style="color: #FFF;"><span class="logo-main" style="color: #FFF;">CHERYL'S</span><span class="logo-sub">COMPANY</span></a>
+          <p>Professional salon services brought to your doorstep.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <div class="footer-contact-item"><span>Phone: +92 333 0181727</span></div>
+          <div class="footer-contact-item"><span>WhatsApp: +92 302 111 9973</span></div>
+          <div class="footer-contact-item"><span>Email: info@cheryls.com.pk</span></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Cheryl's Company. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+  <script src="animations.js" defer></script>
+</body>
+</html>
